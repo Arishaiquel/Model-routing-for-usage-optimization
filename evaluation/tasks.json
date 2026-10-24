@@ -1,0 +1,6 @@
+[
+  { "id": "script", "category": "basic scripting", "prompt": "Write a Python script that counts word frequencies in a UTF-8 file and add tests for punctuation and empty input.", "criteria": "All supplied tests pass and script handles missing file errors." },
+  { "id": "debug", "category": "debugging", "prompt": "Find and fix a failing test caused by a timezone boundary without changing the test's intended behavior.", "criteria": "Regression test passes and neighboring timezone cases pass." },
+  { "id": "react", "category": "React component", "prompt": "Build an accessible React search component with keyboard navigation and add interaction tests.", "criteria": "Interaction tests pass and keyboard navigation works." },
+  { "id": "architecture", "category": "complex programming", "prompt": "Refactor a queue worker for idempotent retries and crash recovery; add integration tests for duplicate delivery.", "criteria": "Integration tests pass and duplicate delivery does not duplicate effects." }
+]

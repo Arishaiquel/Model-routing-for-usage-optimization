@@ -1,0 +1,1 @@
+export function normalizeRates(payload: any, observedAt?: string): Array<{ observedAt: string; limitId: string; limitName: string | null; slot: string; windowMinutes: number | null; usedPercent: number; remainingPercent: number; resetsAt: string | null; windowLabel: string }>;
