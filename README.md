@@ -1,4 +1,4 @@
-# QuotaPilot AI
+# Conserve usage, but conserve smart 
 
 A local-first Next.js dashboard for Codex task execution and reported ChatGPT allowance windows. It runs the official Codex App Server as a local child process. The SQLite database stores usage snapshots and task records; credentials stay with Codex and are never copied into the database or browser.
 
